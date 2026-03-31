@@ -57,6 +57,52 @@
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(390,340)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="0" loc="(550,220)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(550,250)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(560,290)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="CLK"/>
+    </comp>
+    <comp lib="0" loc="(590,340)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(910,220)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp loc="(890,220)" name="Mera_Register"/>
+    <wire from="(380,340)" to="(380,430)"/>
+    <wire from="(380,340)" to="(390,340)"/>
+    <wire from="(380,430)" to="(980,430)"/>
+    <wire from="(550,220)" to="(670,220)"/>
+    <wire from="(550,250)" to="(660,250)"/>
+    <wire from="(560,290)" to="(570,290)"/>
+    <wire from="(570,270)" to="(570,290)"/>
+    <wire from="(570,270)" to="(650,270)"/>
+    <wire from="(590,340)" to="(660,340)"/>
+    <wire from="(650,260)" to="(650,270)"/>
+    <wire from="(650,260)" to="(670,260)"/>
+    <wire from="(660,240)" to="(660,250)"/>
+    <wire from="(660,240)" to="(670,240)"/>
+    <wire from="(660,280)" to="(660,340)"/>
+    <wire from="(660,280)" to="(670,280)"/>
+    <wire from="(670,220)" to="(680,220)"/>
+    <wire from="(670,240)" to="(680,240)"/>
+    <wire from="(670,280)" to="(670,290)"/>
+    <wire from="(890,220)" to="(910,220)"/>
+    <wire from="(890,240)" to="(980,240)"/>
+    <wire from="(910,220)" to="(920,220)"/>
+    <wire from="(980,240)" to="(980,430)"/>
   </circuit>
   <circuit name="HalfAdder">
     <a name="appearance" val="logisim_evolution"/>
